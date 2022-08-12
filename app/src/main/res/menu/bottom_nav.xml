@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/tab1"
+        android:enabled="true"
+        android:icon="@drawable/first_img"
+        android:title="채팅"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/tab2"
+        android:icon="@drawable/second_img"
+        android:title="커뮤니티"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/tab3"
+        android:icon="@drawable/third_img"
+        android:title="내 정보"
+        app:showAsAction="ifRoom"/>
+</menu>
