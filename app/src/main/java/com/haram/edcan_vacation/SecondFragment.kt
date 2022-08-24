@@ -7,6 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 
 class SecondFragment : Fragment() {
+    
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
